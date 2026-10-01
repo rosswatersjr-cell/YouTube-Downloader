@@ -7,7 +7,6 @@ import sys
 import json
 import requests
 import subprocess
-import yt_dlp
 import pyperclip# System ClipBoard
 import ctypes
 from PIL import Image
