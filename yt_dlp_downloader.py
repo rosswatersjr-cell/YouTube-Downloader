@@ -14,6 +14,8 @@ from typing import Literal
 from pathlib import Path
 
 version="2026.10.07"
+#Last yt-dlp version = 2026.8.19
+#Last yt-dlp-ejs version = 0.8.0
 class rwDialog(ctk.CTkToplevel):
     def __init__(self, parent, style: Literal["msgbox", "entry"], title, prompt, choices=None, 
                  icon: Literal["setup.png","check.png", "cancel.png", "info.png", "question.png", "warning.png"] = None, 
